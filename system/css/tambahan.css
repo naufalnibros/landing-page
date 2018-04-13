@@ -1,0 +1,57 @@
+/* slider */
+/* #featured .caroufredsel_wrapper {
+  height: 485px;
+}
+
+@media only screen and ( max-width: 800) {
+  #featured .caroufredsel_wrapper {
+    height: 20% !important;
+  }
+} */
+
+/* Booking Room */
+.check2 {
+  margin-top: 32px !important;
+}
+
+.check2 .centre {
+  border-radius: 8px 8px 8px 8px !important;
+}
+
+.check2 button {
+  border-radius: 0 5px 5px 0 !important;
+}
+
+/* About */
+
+main .col-1 {
+  float: left;
+  padding: 70px 32px 70px 25px;
+}
+main .col-2 {
+  padding: 69px 84px 70px 16px;
+  width: 56%;
+  float: right;
+}
+
+
+@media only screen and ( max-width: 800px) {
+
+  main .col-1 {
+    width: 90%;
+    float: left;
+    margin: auto;
+    clear: both;
+  }
+  main .col-2 {
+    width: 86%;
+    margin: auto;
+    padding: 10px 65px;
+  }
+}
+
+
+
+.clearfix {
+  clear: both;
+}
