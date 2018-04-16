@@ -514,9 +514,9 @@ $(window).load(function () {
 		type: "GET",
 		dataType: "jsonp",
 		cache: false,
-		url: "https://api.instagram.com/v1/users/437900816/media/recent/?access_token=437900816.5b9e1e6.57077e1a57f147719d03d5a152e92d26",
+		url: "https://api.instagram.com/v1/users/3292822371/media/recent/?access_token=3292822371.b7df4d9.9047817bf3c5412cbe9b4350a7fd92c8",
 		success: function(data) {
-			for (var i = 0; i < 6; i++) {
+			for (var i = 0; i <= 10; i++) {
 				$("#instagram #feed").append("<img src='" + data.data[i].images.standard_resolution.url +"' />");
 			}
 		}

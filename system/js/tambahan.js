@@ -22,15 +22,26 @@ $(document).ready(function () {
     // document.getElementById('form-booking-cover').style.opacity = 0.92;
     $('#form-booking-cover').css({
       "opacity" : 0.92,
-      "z-index" : 5
+      "z-index" : 5,
+      "pointer-events" : "all"
     });
-    document.getElementById('form-booking-focus').style.zIndex = 0;
+    document.getElementById('form-booking-focus').style.zIndex = 6;
+  });
+
+  $('button').on('click', function(e) {
+    console.log("TEST BTN");
   });
 
   $('#form-booking-cover').on('click', function(e) {
     console.log("DATA2");
     e.preventDefault();
-    document.getElementById('form-booking-cover').style.opacity = 0;
+
+    $('#form-booking-cover').css({
+      "opacity" : 0,
+      "z-index" : 0,
+      "pointer-events" : "none"
+    });
+
   });
 
 });
