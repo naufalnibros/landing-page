@@ -10,9 +10,9 @@
 } */
 
 /* Booking Room */
-.check2 {
+/* .check2 {
   margin-top: 32px !important;
-}
+} */
 
 .check2 .centre {
   border-radius: 8px 8px 8px 8px !important;
@@ -26,7 +26,7 @@
 
 main .col-1 {
   float: left;
-  padding: 70px 32px 70px 25px;
+  padding: 70px 0px 70px 25px;
 }
 main .col-2 {
   padding: 69px 84px 70px 16px;
@@ -48,6 +48,36 @@ main .col-2 {
     margin: auto;
     padding: 10px 65px;
   }
+}
+
+/* Form Booking  */
+.focus-form{
+  margin-top: 85px;
+  z-index: 0;
+}
+
+.form-booking{
+  width: 100%;
+  height: 100%;
+  background: #c58b15;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#form-booking-cover{
+  content: "";
+  pointer-events: all;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: #232a31;
+  background-attachment: fixed;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  z-index: 3;
 }
 
 
